@@ -96,7 +96,10 @@ open class BaseNotificationBanner: UIView {
             }
         }
     }
-
+ 
+    /// Added by Alon, Banner identifier
+    public var id: String?
+    
     /// The type of haptic to generate when a banner is displayed
     public var haptic: BannerHaptic = .heavy
 
